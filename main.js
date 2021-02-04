@@ -1,7 +1,7 @@
 let getData = ( ) =>
 { 
 let city = document.querySelector("#cityName").value;
-let appId = 1488fe3aca78deb50ae43737ea65fcd3;
+let appId = '06cd4618366398b9144331ae06e3f693';
 apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&${appId}`;
 
 fetch(apiUrl)
