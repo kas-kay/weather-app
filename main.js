@@ -1,8 +1,7 @@
 let getData = ( ) =>
 { 
 let city = document.querySelector("#cityName").value;
-let appId = 1d7152593ec3a5bdc0938181dc284cf7;
-apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&${appId}`;
+apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&${1d7152593ec3a5bdc0938181dc284cf7}`;
 
 fetch(apiUrl)
     .then ((resp) => resp.json())
